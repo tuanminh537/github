@@ -7,6 +7,8 @@ body
 .containt
 {
 	max-width:1400px;
+	position:fixed;
+	width:100%;
 	
 }
 
@@ -20,12 +22,12 @@ body
 	float:left;
 	padding-right:30px;
 	width:70px;
-	height: 90px;
+
+	line-height:0px;
 }
 
 .soccial
 {
-	list-style-type: none;
 	display: inline-block;
 	margin: 5px;
 	padding-left: 0;
@@ -35,7 +37,10 @@ body
 {
 	float:left;
 	padding-top:20px;
+	position:relative;
+	list-style:none;
 }
+
 
 .soccial li a
 {
@@ -45,9 +50,114 @@ body
 	line-height:50px;
 }
 
+.soccial li a:hover
+{
+	color:#F00;
+}
+
 .video
 {
 	float:right;
 	margin-bottom:10px
+}
+
+#slider
+{
+	height:700px;
+	width:100%;
+}
+
+.submenu
+{
+	display:none;
+	position:absolute;
+	background:#333;
+}
+
+.soccial li:hover .submenu
+{
+	display:block;
+}
+
+.size
+{
+	background:#999;
+	text-align:center;
+	line-height:80px;
+	font-size:40px;
+	font-style:normal;
+	color:#000;
+	height:80px;
+	margin-bottom:50px;
+}
+
+.newcar
+{
+	margin:10px;
+}
+
+.newcar li
+{
+	width:400px;
+	float:left;
+	list-style:none;
+	padding-bottom:10px;
+}
+
+.newcar li a
+{
+	margin:10px;
+	line-height:70px;
+}
+
+.text
+{
+	float:right;
+	margin-right:80px;
+	padding-top:10px;
+	line-height:0;
+	color:#F00;
+	text-align:center;
+}
+
+.price li
+{
+	float:right;
+	padding-left:80px;
+	color:#F00;
+}
+
+.footer
+{
+	color:#0F0;
+	height:30px;
+	width:100%;
+}
+
+.copyright
+{
+	float:left;
+	padding-left:20px;
+}
+
+.copyright a
+{
+	color:#0F0;
+	border:0px;
+	text-decoration:none;
+}
+
+
+.end
+{
+	float:right;
+	padding-right:20px;
+}
+
+.end a
+{
+	color:#0F0;
+	border:0px;
+	text-decoration:none;
 }
 
